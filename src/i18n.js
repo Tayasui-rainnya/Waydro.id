@@ -1,0 +1,285 @@
+import { createI18n } from "vue-i18n";
+
+const messages = {
+  en: {
+    header: {
+      home: "Home",
+      about: "About",
+      docs: "Docs",
+      contact: "Contact",
+      licensing: "Licensing",
+      install: "Install",
+      waydroidLinuxBeta: "Waydroid-Linux Beta",
+    },
+
+    hero: {
+      description:
+        "A container-based approach to boot a full Android system on regular GNU/Linux systems running Wayland based desktop environments.",
+      documentation: "Documentation",
+      learnMore: "Learn More",
+      carousel1: {
+        title: "Full Integration Of Android on Linux",
+        description: "Using Waydroid's Multi-Window Mode",
+      },
+      carousel2: {
+        title: "Mobile Linux Integrations",
+        description: "Brought To Life With Waydroid",
+      },
+      carousel3: {
+        title: "Bring Your Desktop To Life",
+        description: "With Waydroids Fullscreen Mode For Desktops & Kiosks",
+      },
+    },
+
+    about: {
+      tag: "About Us",
+      title: "Get your favourite Android Apps on Linux.",
+      description1:
+        "Waydroid brings all the apps you love, right to your desktop, working side by side your Linux applications.",
+      description2:
+        "The Android inside the container has direct access to needed hardwares.",
+      description3:
+        "The Android runtime environment ships with a minimal customized Android system image based on ",
+      description4: " The used image is currently based on Android 11",
+      installInstructions: " Install Instructions ",
+    },
+
+    features: {
+      title: "Features",
+      subtitle: "Main Features of Waydroid",
+      description:
+        "Waydroid uses Linux namespaces (user, pid, uts, net, mount, ipc) to run a full Android system in a container and provide Android applications on any GNU/Linux-based platform (arm, arm64, x86, x86_64). The Android system inside the container has direct access to needed hardware through LXC and the binder interface.",
+      feature1: {
+        title: "Free and Open-Source",
+        description:
+          "The Project is completely free and open-source, currently our repo is hosted on ",
+      },
+      feature2: {
+        title: "Full app integration",
+        description:
+          "Waydroid integrated with Linux adding the Android apps to your linux applications folder.",
+      },
+      feature3: {
+        title: "Multi-window mode",
+        description:
+          "Waydroid expands on Android freeform window definition, adding a number of features.",
+      },
+      feature4: {
+        title: "Full UI Mode",
+        description:
+          "For gaming and full screen entertainment, Waydroid can also be run to show the full Android UI.",
+      },
+      feature5: {
+        title: "Near native performance",
+        description:
+          "Get the best performance possible using wayland and AOSP mesa, taking things to the next level",
+      },
+      feature6: {
+        title: "Active community",
+        description:
+          "Find out what all the buzz is about and explore all the possibilities Waydroid could bring",
+      },
+    },
+
+    docs: {
+      title_span: "Docs",
+      title_h2: "Our Documentation",
+      content_p1: "Our documentation site can be found at ",
+      title_h2_bugs: "Bugs & Reports",
+      content_p2: "Bug Reports can be filed on our repo ",
+      title_h2_development: "Project Development",
+      content_p3: "Our development repositories are hosted on ",
+      title_h2_install: "How to Install ?",
+      content_p4: "Please refer to our ",
+      install_docs_link: "installation docs",
+      content_p4_end: " for complete installation guide.",
+      title_h2_download: "Manual Image Download",
+      content_p5: "You can also manually download our images from",
+    },
+
+    faq: {
+      instructions: "Instructions",
+      quickInstallReference: "Quick install reference",
+      forSystemdDistributions: "For systemd distributions",
+      supportedCPUs: "Supported CPUs",
+      supportedGPUs: "Supported GPUs",
+      cpusContent:
+        "Waydroid supports most common architectures (ARM, ARM64, x86 & x86_64 CPUs)",
+      gpusContent1:
+        "Waydroid uses Android's mesa integration for passthrough, and that enables support to most ARM/ARM64 SOCs on the mobile side, and Intel/AMD GPUs for the PC side. For Nvidia GPUs (except tegra) and VMs, we recommend using ",
+      softwareRendering: "software-rendering",
+      followInstallInstructions:
+        "Follow the install instructions for your linux distribution. You can find a list in our ",
+      docs: "docs",
+      afterInstalling:
+        "After installing you should start the waydroid-container service, if it was not started automatically:",
+      thenLaunchWaydroid:
+        "Then launch Waydroid from the applications menu and follow the first-launch wizard.",
+      ifPromptedUseLinks:
+        "If prompted, use the following links for System OTA and Vendor OTA:",
+      forFurtherInstructions:
+        "For further instructions, please visit the docs site ",
+      here: "here",
+    },
+
+    instructions: {
+      waydroidLinuxBetaTitle: "Waydroid-Linux Beta",
+      waydroidLinux: "Waydroid-Linux",
+      latestBeta: "Latest Beta",
+      description:
+        "We have started creating a few fully-integrated distros in order to demonstrate some of the possibilities that Waydroid can help achieve.",
+      description2:
+        "Each of the distros we produce will also showcase some of the work from our growing community of contributors.",
+      description3:
+        "Our initial alpha releases of this integration started with Ubuntu 20.04 (focal) and is now on Ubuntu 22.04 (jammy) as well as Debian 12 (bookworm), and includes many added tools and scripts to help open up what is possible.",
+      cardTitle: "Information",
+      supportedCPUs: "Supported CPUs",
+      supportedGPUs: "Supported GPUs",
+      sources: "Sources",
+      cpuDescription:
+        "Waydroid-Linux currently only supports x86_64 CPUs (Intel/AMD)",
+      gpuDescription1:
+        "Waydroid-Linux uses Android's mesa integration for passthrough, and that restricts support to Intel and AMD GPUs",
+      gpuDescription2: "For Nvidia GPUs and VMs, we recommend using ",
+      softwareRendering: "software-rendering",
+      sourcesDescription1:
+        "We have been working with a number of devs on Waydroid-Linux, and have been creating or contributing to a number of projects for it.",
+      sourcesDescription2:
+        "Here are just a few of the projects we've been using:",
+      waydroidLinuxTools: "Waydroid-Linux Tools",
+      waydroidLinuxToolsDesc:
+        "A few scripts, configs, and themes for the Waydroid-Linux builds",
+      waydroidSettings: "Waydroid-Settings",
+      waydroidSettingsDesc:
+        "A GTK app written in Python to control Waydroid settings and expand with scripts (shell/py)",
+      penguinsEggs: "Penguins-Eggs",
+      penguinsEggsDesc:
+        "A tool used for packaging and installation of various Linux distros",
+      ourFork: "Our Fork",
+      upstream: "Upstream",
+      othersWorthMentioning: "Others worth mentioning:",
+      quackDocsScripts: "QuackDoc's Waydroid-Scripts",
+      electrikjesusScripts: "electrikjesus's WD-Scripts",
+      waydroidSwitchScript: "Waydroid 10/11 switch script",
+      liveModeInfo: "Live Mode Info",
+      liveModeDescription1:
+        "Due to how Waydroid uses LXC and kernel modules for the binder, it will not work while running in live mode and must be installed before working properly.",
+      liveModeDescription2:
+        "Make sure to check the readme for the .iso, as it contains the specifics needed for each build.",
+      downloadNow: "Download Now",
+      shareDownload: "Share & Download",
+      thanksForDownloading: "Thanks for Downloading",
+      sharingConsideration:
+        "Please consider sharing our work as a way to help us spread the word.",
+      readmeCheck:
+        "Remember to check the README.md located in the download folder for release info",
+      ubuntu2204KDEPlasma: "Ubuntu 22.04 [KDE-Plasma] (Lineage-18.1)",
+      ubuntu2204Gnome: "Ubuntu 22.04 [Gnome] (Lineage-18.1)",
+      debian12Beta: "Debian 12 Beta (Lineage-17.1 vanilla)",
+      ubuntu2110Beta: "Ubuntu 21.10 Beta (Lineage-17.1 vanilla)",
+      olderReleases: "Our Older Releases",
+    },
+
+    team: {
+      ourTeam: "Our Team",
+      meetTheTeam: "Meet The Team",
+      teamDescription: "Here are the members of our team",
+      leadDeveloper: "Lead Developer",
+      developer: "Developer",
+      designer: "Designer",
+    },
+
+    contact: {
+      getInTouch: "Get in Touch",
+      contactDescription:
+        "If you want to get in contact with the developers, please feel free to join the WayDroid groups",
+      helpUsGrow: "Help Us Grow",
+      waydroidOnOpenCollective: "Waydroid is now on Open-Collective",
+      donationSponsorship:
+        "We are now accepting donations and sponsorships through Open-Collective.",
+    },
+
+    footer: {
+      source: "Source",
+      documentation: "Documentation",
+      aBlissLabsProjectPrefix: "A ",
+      aBlissLabsProjectLink: "BlissLabs",
+      aBlissLabsProjectSuffix: " Project",
+      copyright: "Copyright © 2022 All rights reserved.",
+    },
+
+    backToTop: {
+      //  Nothing
+    },
+
+    LicensingInformation: {
+      description: "Licensing Information",
+    },
+
+    LicensingLicensing: {
+      licensingTitle: "Licensing",
+      licensingIntro:
+        "Waydroid is available under different licensing options designed to accommodate the needs of our various users:",
+      commercialLicense:
+        "Waydroid licensed under <b>commercial</b> licenses is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU GPL version 3.",
+      gplLicense:
+        "Waydroid licensed under the <b>GNU General Public License (GPL) version 3</b> is appropriate for the development of Waydroid applications provided you can comply with the terms and conditions of the GNU GPL version 3.",
+      thirdPartyCodeIntro:
+        "Waydroid also contains third-party code that is licensed under specific open-source licenses from the original authors (See <b>Third-Party Code in Waydroid</b> below).",
+      note: "Note",
+      openSourceNote:
+        "For open-source licensed Waydroid, some specific parts are available under the GNU General Public License (GPL). For commercial licensees, all Waydroid related changes are available under commercial Waydroid licenses.",
+      documentation: "Waydroid documentation",
+      documentationAvailability:
+        "is available under commercial licenses from Navotpala Tech (Bliss Co-Labs), and under the terms of the GNU Free Documentation License (FDL) version 1.3, as published by the Free Software Foundation.",
+      educationalLicenses:
+        "Educational licenses are available for students and educators in qualified educational institutions or universities.",
+      purchasingAndSalesTitle: "Purchasing and Sales Information",
+      purchasingInstructions: "To purchase a commercial Waydroid license,",
+      contactUs: "contact us",
+      withYourRequest: "with your request.",
+      furtherInformation:
+        "For further information and assistance about Waydroid licensing, contact us or see our website for further details.",
+      thirdPartyCodeTitle: "Third-Party Code in Waydroid",
+      thirdPartyCodeDescription:
+        "The following documents the open-source licenses used in different parts of Waydroid:",
+      apacheLicense:
+        "Waydroid inherits the same Apache v2 licensing that AOSP uses for most of the components, while many of the other components like Android-Generic Project use GPL-2.0 license.",
+      proprietaryComponents:
+        "For product use, we do not include proprietary components like Google Apps, Native-Bridge, and widevine.",
+      blissBassLicense: "Some features and toolkits like the",
+      rebrandingToolkit:
+        "rebranding toolkit might require additional licensing to be obtained by the customer.",
+    },
+
+    LicensingFAQ: {
+      title: "FAQ",
+      q1: "Is Waydroid suitable for individuals?",
+      a1: "A: Yes, Waydroid public releases are designed to be used to allow Android applications to run on top of a normal Linux environment<br /><br />We offer users multiple types of builds to help fit their needs:<br />- <b>Gapps Builds</b>: Comes with Google Play Store<br />- <b>Vanilla Builds</b>: Comes with no added apps and services. ",
+      q2: "Does Waydroid include proprietary software?",
+      a2: "A:Yes. Our GMS/Gapps releases include proprietary software, and are intended for individuals only, while our Vanilla builds might include some proprietary parts as well. <br /><br />Proprietary redistributables in all Waydroid public builds: <br />- some media codecs (for decoding H.264/HEVC) <br /><br />Extra proprietary redistributables in Waydroid Gapps builds include Google Play Serivces & Google Play Store.",
+      q3: "Is Waydroid suitable for companies?",
+      a3: 'A: Yes, but not all builds. We produce vanilla Waydroid builds. While those builds are very basic, they do include much of what would be needed to base a product off of. If your product requires no additional changes on top of what is released to the public, then you are free to use it at no cost.<br />If your product requires Google Apps, ARM/ARM64 Native-Bridge, or Widevine, due to licensing restrictions, we suggest that you <a href="mailto:waydroid.project@gmail.com?subject=Development Contract Inquiry">reach out</a> and we can help you look into alternative options using open-source solutions. <br />',
+      q4: "Can my company use Waydroid with Gapps as-is?",
+      a4: "A: No. The Waydroid versions that include Google Play Store, native-bridge, or widevine are not fit for commercial use or meant to be included in products as they contain proprietary features and services that typically require per-product licensing through Google, Intel, or others. We do however release public Vanilla builds that do not contain any proprietary resources.<br /><br />Most of those proprietary licenses are not eligible for use in generic operating-system setups. Some require the device to pass certification programs that is only meant for single device certifications. For this reason, we do offer open-source alternatives.<br />",
+      q5: "Can my company use Waydroid source-code in a product?",
+      a5: 'A: Yes, <b>If you are an individual developer, a startup, or represent some other business enterprise and you are interested in using our sources, the open-source licenses we maintain allow you to use the source at no cost as long as you use it: A) as-is, B) you contribute any changes made back to the source, or C) produce the full source to the public independently.</b> If you would like to use our source and make changes to it that you do not plan on releasing as open-source, we request you contact us to work out a <b>per-device licensing agreement</b> and/or setup a <a href="mailto:waydroid.project@gmail.com?subject=Development Contract Inquiry">development contract</a> for branding, optimizations and specific needs.',
+      q6: "Does my company have to release any changes made to the collective source code of Waydroid?",
+      a6: 'A: This all depends on where the changes in the source were made, as many repos in the project retain a different OSS Licenses, there are different requirements per repo. If you are unsure if your company needs to release the source for any of the changes made, please feel free to contact us.<br /><br />Another thing to pay attention to is if the tools being used require the end product or alterations to be released. Some Apache 2.0 licensed projects allow for that requirement to be made. Some versions of Android-Generic Project also have similar licensing requirements. We have put together a toolkit to help identify these types of licenses within the source. You can find that <a href="https://github.com/android-generic/agpm-auto-oss-license-documentation" target="_BLANK">here</a>.',
+      licensingQuestions: "Licensing Questions?",
+      licensingDescription:
+        "We try to offer a wide variety of licensing options that cater to organizations of all sizes.",
+      licensingHelp:
+        "If you are not sure if you need a license, or just have some questions on our licensing options, please feel free to contact us. We love helping out others find the best way to contribute back to the source.",
+      contactUs: "Contact Us",
+    },
+  },
+};
+
+const i18n = createI18n({
+  locale: "en", // Default Lang
+  fallbackLocale: "en", // 设置备用语言
+  messages, // 设置语言包
+});
+
+export default i18n;
