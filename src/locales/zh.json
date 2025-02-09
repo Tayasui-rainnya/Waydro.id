@@ -6,7 +6,7 @@
     "contact": "联系我们",
     "licensing": "许可证",
     "install": "安装",
-    "waydroidLinuxBeta": "唯卓 Beta"
+    "waydroidLinuxBeta": "唯卓 Beta 版"
   },
   "hero": {
     "description": "A container-based approach to boot a full Android system on regular GNU/Linux systems running Wayland based desktop environments.",
@@ -208,11 +208,11 @@
     "contactUs": "Contact Us"
   },
   "HeaderLicensing": {
-    "home": "Home",
-    "Licensing": "Licensing",
-    "LicensingFAQ": "FAQ",
-    "contact": "Contact",
-    "install": "Install",
-    "waydroidLinuxBeta": "Waydroid-Linux Beta"
+    "home": "主页",
+    "Licensing": "许可证",
+    "LicensingFAQ": "常见问题解答",
+    "contact": "联系我们",
+    "install": "安装",
+    "waydroidLinuxBeta": "唯卓 Beta 版"
   }
 }
