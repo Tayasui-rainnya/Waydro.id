@@ -1,0 +1,210 @@
+{
+    "header": {
+      "home": "ホーム",
+      "about": "について",
+      "docs": "ドキュメント",
+      "contact": "お問い合わせ",
+      "licensing": "ライセンス",
+      "install": "インストール",
+      "waydroidLinuxBeta": "Waydroid-Linux ベータ"
+    },
+    "hero": {
+      "description": "Waylandベースのデスクトップ環境を実行する通常のGNU/Linuxシステム上で、完全なAndroidシステムを起動するためのコンテナベースのアプローチです。",
+      "documentation": "ドキュメント",
+      "learnMore": "詳細を見る",
+      "carousel1": {
+        "title": "Linux上のAndroidの完全な統合",
+        "description": "Waydroidのマルチウィンドウモードを使用"
+      },
+      "carousel2": {
+        "title": "モバイルLinuxの統合",
+        "description": "Waydroidによって実現"
+      },
+      "carousel3": {
+        "title": "デスクトップを活性化",
+        "description": "Waydroidのフルスクリーンモードでデスクトップ＆キオスク向け"
+      }
+    },
+    "about": {
+      "tag": "私たちについて",
+      "title": "Linux上でお気に入りのAndroidアプリを利用しましょう。",
+      "description1": "Waydroidは、あなたが愛するすべてのアプリをデスクトップに持ち込み、Linuxアプリケーションと並行して動作させます。",
+      "description2": "コンテナ内のAndroidは、必要なハードウェアに直接アクセスできます。",
+      "description3": "Androidランタイム環境は、最小限にカスタマイズされたAndroidシステムイメージをベースにしています。",
+      "description4": "現在使用されているイメージはAndroid 11をベースにしています。",
+      "installInstructions": "インストール手順"
+    },
+    "features": {
+      "title": "特徴",
+      "subtitle": "Waydroidの主な特徴",
+      "description": "WaydroidはLinuxの名前空間（user、pid、uts、net、mount、ipc）を使用して、コンテナ内で完全なAndroidシステムを実行し、任意のGNU/Linuxベースのプラットフォーム（arm、arm64、x86、x86_64）でAndroidアプリケーションを提供します。コンテナ内のAndroidシステムは、LXCとバインダーインターフェースを介して必要なハードウェアに直接アクセスできます。",
+      "feature1": {
+        "title": "無料でオープンソース",
+        "description": "このプロジェクトは完全に無料でオープンソースです。現在、リポジトリはこちらでホストされています。"
+      },
+      "feature2": {
+        "title": "完全なアプリ統合",
+        "description": "WaydroidはLinuxと統合され、AndroidアプリをLinuxアプリケーションフォルダに追加します。"
+      },
+      "feature3": {
+        "title": "マルチウィンドウモード",
+        "description": "WaydroidはAndroidのフリーフォームウィンドウ定義を拡張し、多くの機能を追加します。"
+      },
+      "feature4": {
+        "title": "フルUIモード",
+        "description": "ゲームやフルスクリーンのエンターテイメントのために、Waydroidは完全なAndroid UIを表示するようにも実行できます。"
+      },
+      "feature5": {
+        "title": "ネイティブに近いパフォーマンス",
+        "description": "WaylandとAOSP Mesaを使用して最高のパフォーマンスを実現し、次のレベルへと進化させます。"
+      },
+      "feature6": {
+        "title": "活発なコミュニティ",
+        "description": "Waydroidがもたらす可能性を探り、その魅力を発見しましょう。"
+      }
+    },
+    "docs": {
+      "title_span": "ドキュメント",
+      "title_h2": "私たちのドキュメント",
+      "content_p1": "私たちのドキュメントサイトはこちらです。",
+      "title_h2_bugs": "バグと報告",
+      "content_p2": "バグ報告は私たちのリポジトリで提出できます。",
+      "title_h2_development": "プロジェクト開発",
+      "content_p3": "私たちの開発リポジトリはこちらでホストされています。",
+      "title_h2_install": "インストール方法",
+      "content_p4": "完全なインストールガイドについては、",
+      "install_docs_link": "インストールドキュメント",
+      "content_p4_end": "を参照してください。",
+      "title_h2_download": "手動でのイメージダウンロード",
+      "content_p5": "また、手動でイメージをダウンロードすることもできます。"
+    },
+    "faq": {
+      "instructions": "手順",
+      "quickInstallReference": "クイックインストールリファレンス",
+      "forSystemdDistributions": "systemdディストリビューション向け",
+      "supportedCPUs": "対応CPU",
+      "supportedGPUs": "対応GPU",
+      "cpusContent": "Waydroidは、ほとんどの一般的なアーキテクチャ（ARM、ARM64、x86、x86_64 CPU）をサポートしています。",
+      "gpusContent1": "WaydroidはAndroidのMesa統合を使用してパススルーを実現し、モバイル側ではほとんどのARM/ARM64 SOCを、PC側ではIntel/AMD GPUをサポートします。Nvidia GPU（Tegraを除く）とVMについては、",
+      "softwareRendering": "ソフトウェアレンダリング",
+      "followInstallInstructions": "お使いのLinuxディストリビューションのインストール手順に従ってください。リストは",
+      "docs": "ドキュメント",
+      "afterInstalling": "インストール後、waydroid-containerサービスを開始する必要があります（自動的に開始されていない場合）。",
+      "thenLaunchWaydroid": "その後、アプリケーションメニューからWaydroidを起動し、初回起動ウィザードに従ってください。",
+      "ifPromptedUseLinks": "プロンプトが表示された場合は、System OTAとVendor OTAに次のリンクを使用してください。",
+      "forFurtherInstructions": "詳細な手順については、ドキュメントサイトを参照してください。",
+      "here": "こちら"
+    },
+    "instructions": {
+      "waydroidLinuxBetaTitle": "Waydroid-Linux ベータ",
+      "waydroidLinux": "Waydroid-Linux",
+      "latestBeta": "最新のベータ版",
+      "description": "Waydroidが実現できる可能性の一部を示すために、いくつかの完全に統合されたディストリビューションを作成し始めました。",
+      "description2": "私たちが作成する各ディストリビューションは、成長する貢献者コミュニティの作業の一部も紹介します。",
+      "description3": "この統合の最初のアルファリリースはUbuntu 20.04（focal）から始まり、現在はUbuntu 22.04（jammy）およびDebian 12（bookworm）でも利用可能で、多くの追加ツールやスクリプトが含まれています。",
+      "cardTitle": "情報",
+      "supportedCPUs": "対応CPU",
+      "supportedGPUs": "対応GPU",
+      "sources": "ソース",
+      "cpuDescription": "Waydroid-Linuxは現在、x86_64 CPU（Intel/AMD）のみをサポートしています。",
+      "gpuDescription1": "Waydroid-LinuxはAndroidのMesa統合を使用してパススルーを実現し、IntelおよびAMD GPUに制限されています。",
+      "gpuDescription2": "Nvidia GPUとVMについては、",
+      "softwareRendering": "ソフトウェアレンダリング",
+      "sourcesDescription1": "私たちは、Waydroid-Linuxに関して多くの開発者と協力し、いくつかのプロジェクトを作成または貢献してきました。",
+      "sourcesDescription2": "以下は、私たちが使用しているプロジェクトの一部です。",
+      "waydroidLinuxTools": "Waydroid-Linux ツール",
+      "waydroidLinuxToolsDesc": "Waydroid-Linuxビルド用のいくつかのスクリプト、設定、テーマ",
+      "waydroidSettings": "Waydroid-設定",
+      "waydroidSettingsDesc": "Waydroid設定を制御し、スクリプト（シェル/Python）で拡張するためのGTKアプリ",
+      "penguinsEggs": "Penguins-Eggs",
+      "penguinsEggsDesc": "さまざまなLinuxディストリビューションのパッケージングとインストールに使用されるツール",
+      "ourFork": "私たちのフォーク",
+      "upstream": "上流",
+      "othersWorthMentioning": "その他注目すべきもの：",
+      "quackDocsScripts": "QuackDocのWaydroidスクリプト",
+      "electrikjesusScripts": "electrikjesusのWDスクリプト",
+      "waydroidSwitchScript": "Waydroid 10/11 切り替えスクリプト",
+      "liveModeInfo": "ライブモード情報",
+      "liveModeDescription1": "WaydroidがLXCとバインダーのカーネルモジュールを使用する方法のため、ライブモードでは動作せず、正しく動作するためにはインストールする必要があります。",
+      "liveModeDescription2": ".isoのREADMEを確認し、各ビルドに必要な詳細を確認してください。",
+      "downloadNow": "今すぐダウンロード",
+      "shareDownload": "共有＆ダウンロード",
+      "thanksForDownloading": "ダウンロードありがとうございます",
+      "sharingConsideration": "私たちの仕事を広めるために、共有を検討してください。",
+      "readmeCheck": "ダウンロードフォルダ内のREADME.mdを確認して、リリース情報を確認してください。",
+      "ubuntu2204KDEPlasma": "Ubuntu 22.04 [KDE-Plasma] (Lineage-18.1)",
+      "ubuntu2204Gnome": "Ubuntu 22.04 [Gnome] (Lineage-18.1)",
+      "debian12Beta": "Debian 12 ベータ (Lineage-17.1 バニラ)",
+      "ubuntu2110Beta": "Ubuntu 21.10 ベータ (Lineage-17.1 バニラ)",
+      "olderReleases": "私たちの古いリリース"
+    },
+    "team": {
+      "ourTeam": "私たちのチーム",
+      "meetTheTeam": "チームの紹介",
+      "teamDescription": "私たちのチームメンバーはこちらです。",
+      "leadDeveloper": "リード開発者",
+      "developer": "開発者",
+      "designer": "デザイナー"
+    },
+    "contact": {
+      "getInTouch": "お問い合わせ",
+      "contactDescription": "開発者と連絡を取りたい場合は、WayDroidグループに参加してください。",
+      "helpUsGrow": "私たちの成長を支援",
+      "waydroidOnOpenCollective": "Waydroidは現在Open-Collectiveにあります。",
+      "donationSponsorship": "現在、Open-Collectiveを通じて寄付やスポンサーシップを受け付けています。"
+    },
+    "footer": {
+      "source": "ソース",
+      "documentation": "ドキュメント",
+      "aBlissLabsProjectPrefix": "",
+      "aBlissLabsProjectLink": "BlissLabs",
+      "aBlissLabsProjectSuffix": "プロジェクト",
+      "copyright": "Copyright © 2022 All rights reserved."
+    },
+    "backToTop": {},
+    "LicensingInformation": {
+      "description": "ライセンス情報"
+    },
+    "LicensingLicensing": {
+      "licensingTitle": "ライセンス",
+      "licensingIntro": "Waydroidは、さまざまなユーザーのニーズに合わせた異なるライセンスオプションで利用できます。",
+      "commercialLicense": "Waydroidは、サードパーティにソースコードを公開したくない、またはGNU GPLバージョン3の条件に従えないプロプライエタリ/商用ソフトウェアの開発に適した<b>商用</b>ライセンスで利用できます。",
+      "gplLicense": "Waydroidは、GNU General Public License（GPL）バージョン3の条件に従える場合、Waydroidアプリケーションの開発に適した<b>GNU General Public License（GPL）バージョン3</b>で利用できます。",
+      "thirdPartyCodeIntro": "Waydroidには、元の作者による特定のオープンソースライセンスでライセンスされたサードパーティコードも含まれています（以下の<b>Waydroidのサードパーティコード</b>を参照）。",
+      "note": "注",
+      "openSourceNote": "オープンソースライセンスのWaydroidの場合、特定の部分はGNU General Public License（GPL）で利用できます。商用ライセンスの場合、すべてのWaydroid関連の変更は商用Waydroidライセンスで利用できます。",
+      "documentation": "Waydroidドキュメント",
+      "documentationAvailability": "は、Navotpala Tech（Bliss Co-Labs）からの商用ライセンス、およびFree Software Foundationによって公開されたGNU Free Documentation License（FDL）バージョン1.3の条件で利用できます。",
+      "educationalLicenses": "教育機関や大学向けに、学生や教育者向けの教育ライセンスが利用可能です。",
+      "purchasingAndSalesTitle": "購入と販売情報",
+      "purchasingInstructions": "商用Waydroidライセンスを購入するには、",
+      "contactUs": "お問い合わせ",
+      "withYourRequest": "リクエストを送信してください。",
+      "furtherInformation": "Waydroidライセンスに関する詳細情報やサポートについては、お問い合わせいただくか、ウェブサイトをご覧ください。",
+      "thirdPartyCodeTitle": "Waydroidのサードパーティコード",
+      "thirdPartyCodeDescription": "以下は、Waydroidのさまざまな部分で使用されているオープンソースライセンスのドキュメントです。",
+      "apacheLicense": "Waydroidは、AOSPがほとんどのコンポーネントに使用しているApache v2ライセンスを継承し、Android-Generic Projectなどの他の多くのコンポーネントはGPL-2.0ライセンスを使用しています。",
+      "proprietaryComponents": "製品使用の場合、Google Apps、Native-Bridge、Widevineなどのプロプライエタリコンポーネントは含まれていません。",
+      "blissBassLicense": "一部の機能やツールキット、例えば",
+      "rebrandingToolkit": "リブランディングツールキットは、顧客が追加のライセンスを取得する必要がある場合があります。"
+    },
+    "LicensingFAQ": {
+      "title": "FAQ",
+      "q1": "Waydroidは個人向けに適していますか？",
+      "a1": "A: はい、Waydroidのパブリックリリースは、通常のLinux環境上でAndroidアプリケーションを実行するために設計されています。<br /><br />ユーザーのニーズに合わせて、複数のタイプのビルドを提供しています：<br />- <b>Gappsビルド</b>: Google Playストア付き<br />- <b>バニラビルド</b>: 追加のアプリやサービスなし",
+      "q2": "Waydroidにはプロプライエタリソフトウェアが含まれていますか？",
+      "a2": "A: はい。私たちのGMS/Gappsリリースにはプロプライエタリソフトウェアが含まれており、個人向けのみを意図しています。バニラビルドにも一部のプロプライエタリ部分が含まれる場合があります。<br /><br />すべてのWaydroidパブリックビルドに含まれるプロプライエタリ再配布可能物：<br />- 一部のメディアコーデック（H.264/HEVCデコード用）<br /><br />Waydroid Gappsビルドに含まれる追加のプロプライエタリ再配布可能物：Google Playサービス＆Google Playストア",
+      "q3": "Waydroidは企業向けに適していますか？",
+      "a3": "A: はい、ただしすべてのビルドではありません。私たちはバニラWaydroidビルドを提供しています。これらのビルドは非常に基本的ですが、製品の基盤として必要な多くの要素を含んでいます。もしあなたの製品が公開されているもの以上の変更を必要としない場合、無料で自由に使用できます。<br />もしあなたの製品がGoogle Apps、ARM/ARM64 Native-Bridge、またはWidevineを必要とする場合、ライセンスの制限により、<a href=\"mailto:waydroid.project@gmail.com?subject=Development Contract Inquiry\">ご連絡</a>いただき、オープンソースソリューションを使用した代替オプションを検討するお手伝いをします。<br />",
+      "q4": "私の会社はGappsを含むWaydroidをそのまま使用できますか？",
+      "a4": "A: いいえ。Google Playストア、ネイティブブリッジ、またはWidevineを含むWaydroidバージョンは、商用利用や製品に含めることを意図していません。これらには通常、Google、Intelなどによる製品ごとのライセンスが必要な独自の機能やサービスが含まれているためです。ただし、独自のリソースを含まないバニラビルドを公開しています。<br /><br />これらの独自ライセンスの多くは、一般的なオペレーティングシステムの設定での使用には適していません。一部のライセンスでは、デバイスが単一デバイス認証のみを目的とした認証プログラムを通過する必要があります。このため、オープンソースの代替手段を提供しています。<br />",
+      "q5": "私の会社は製品でWaydroidのソースコードを使用できますか？",
+      "a5": "A: はい、<b>あなたが個人開発者、スタートアップ、または他の事業体を代表している場合、私たちのソースを使用することに興味があるなら、私たちが維持するオープンソースライセンスは、以下の条件で無料でソースを使用することを許可します：A) そのまま使用する、B) 加えた変更をソースに還元する、またはC) 完全なソースを独立して公開する。</b> もし私たちのソースを使用し、オープンソースとして公開しない変更を加えたい場合は、<b>デバイスごとのライセンス契約</b>を結ぶか、ブランディング、最適化、特定のニーズのために<a href=\"mailto:waydroid.project@gmail.com?subject=Development Contract Inquiry\">開発契約</a>を設定するためにご連絡ください。",
+      "q6": "私の会社はWaydroidの集合的なソースコードに加えた変更を公開する必要がありますか？",
+      "a6": "A: これはソースのどこに変更が加えられたかによります。プロジェクト内の多くのリポジトリは異なるOSSライセンスを保持しており、リポジトリごとに異なる要件があります。もしあなたの会社が加えた変更のソースを公開する必要があるかどうかわからない場合は、お気軽にご連絡ください。<br /><br />もう一つ注意すべき点は、使用されているツールが最終製品や変更を公開することを要求しているかどうかです。Apache 2.0ライセンスのプロジェクトの中には、そのような要件を設けているものもあります。Android-Generic Projectの一部のバージョンも同様のライセンス要件を持っています。私たちはソース内でこれらのタイプのライセンスを識別するためのツールキットを用意しています。それは<a href=\"https://github.com/android-generic/agpm-auto-oss-license-documentation\" target=\"_BLANK\">こちら</a>で見つけることができます。",
+      "licensingQuestions": "ライセンスに関する質問？",
+      "licensingDescription": "私たちは、あらゆる規模の組織に対応する多様なライセンスオプションを提供しようとしています。",
+      "licensingHelp": "ライセンスが必要かどうかわからない場合や、ライセンスオプションについて質問がある場合は、お気軽にご連絡ください。私たちは、他の人々がソースに還元する最良の方法を見つけるのを手助けするのが好きです。",
+      "contactUs": "お問い合わせ"
+    }
+    }
