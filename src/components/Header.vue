@@ -54,8 +54,10 @@
 
             <select v-model="selectedLanguage" @change="changeLanguage">
               <option value="en">🇺🇸 English</option>
-              <option value="zh">🇨🇳 中文</option>
-              <!-- 根据需要添加更多语言选项 -->
+              <option value="zh">🇨🇳 简体中文</option>
+              <option value="tw">🇹🇼 繁體中文</option>
+              <option value="ja">🇯🇵 日本語</option>
+              <!-- More language -->
             </select>
             <div class="navbar-btn d-sm-inline-block mr-3 pr-3">
               <a
