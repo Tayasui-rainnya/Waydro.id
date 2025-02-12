@@ -1,6 +1,6 @@
 <template>
   <section id="Licensing">
-    <div class="py-5" style="" id="oems">
+    <div class="py-5" id="oems">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -11,26 +11,23 @@
               {{ $t("LicensingLicensing.licensingIntro") }}
             </p>
             <div class="row">
-              <div class="col-md-12" style="">
+              <div class="col-md-12">
                 <li v-html="$t('LicensingLicensing.commercialLicense')"></li>
                 <li v-html="$t('LicensingLicensing.gplLicense')"></li>
               </div>
             </div>
             <ul></ul>
             <br />
-            <p style="">
-              {{ $t("LicensingLicensing.thirdPartyCodeIntro") }}
+            <p>
+              {{ $t("LicensingLicensing.thirdPartyCodeIntro1") }}<strong>{{ $t("LicensingLicensing.thirdPartyCodeIntro2") }}</strong>{{ $t("LicensingLicensing.thirdPartyCodeIntro3") }}
             </p>
-            <p style="">
-              <b>{{ $t("LicensingLicensing.note") }}</b
-              >: {{ $t("LicensingLicensing.openSourceNote") }}
+            <p>
+              <b>{{ $t("LicensingLicensing.note") }}</b>: {{ $t("LicensingLicensing.openSourceNote") }}
             </p>
-            <p style="">
-              <b
-                ><i>{{ $t("LicensingLicensing.documentation") }}</i></b
-              >  {{ $t("LicensingLicensing.documentationAvailability") }}
+            <p>
+              <b><i>{{ $t("LicensingLicensing.documentation") }}</i></b> {{ $t("LicensingLicensing.documentationAvailability") }}
             </p>
-            <p style="">
+            <p>
               {{ $t("LicensingLicensing.educationalLicenses") }}
             </p>
             <br />
@@ -41,9 +38,7 @@
             <h2>{{ $t("LicensingLicensing.purchasingAndSalesTitle") }}</h2>
             <p>
               {{ $t("LicensingLicensing.purchasingInstructions") }}
-              <a
-                href="mailto:waydroid.project@gmail.com?subject=Waydroid%20License%20Pricing"
-              >
+              <a href="mailto:waydroid.project@gmail.com?subject=Waydroid%20License%20Pricing">
                 {{ $t("LicensingLicensing.contactUs") }}
               </a>
               {{ $t("LicensingLicensing.withYourRequest") }}
@@ -62,11 +57,9 @@
               {{ $t("LicensingLicensing.thirdPartyCodeDescription") }}
             </p>
             <div class="row">
-              <div class="col-md-12" style="">
+              <div class="col-md-12">
                 <li v-html="$t('LicensingLicensing.apacheLicense')"></li>
-                <li
-                  v-html="$t('LicensingLicensing.proprietaryComponents')"
-                ></li>
+                <li v-html="$t('LicensingLicensing.proprietaryComponents')"></li>
                 <li>
                   {{ $t("LicensingLicensing.blissBassLicense") }}
                   <a href="https://bliss-bass.blisscolabs.dev" target="_BLANK">
@@ -77,35 +70,18 @@
               </div>
             </div>
             <p>
-              -
-              <a
-                href="https://source.android.com/docs/setup/about/licenses"
-                target="_BLANK"
-              >
+              - <a href="https://source.android.com/docs/setup/about/licenses" target="_BLANK">
                 AOSP Licenses
-              </a>
-              -
-              <a
-                href="https://github.com/BlissRoms-x86/manifest/blob/arcadia-x86/License"
-                target="_BLANK"
-              >
+              </a> -
+              <a href="https://github.com/BlissRoms-x86/manifest/blob/arcadia-x86/License" target="_BLANK">
                 Bliss OS License
-              </a>
-              -
-              <a
-                href="https://github.com/android-generic/vendor_ag/blob/unified/LICENSE.md"
-                target="_BLANK"
-              >
+              </a> -
+              <a href="https://github.com/android-generic/vendor_ag/blob/unified/LICENSE.md" target="_BLANK">
                 Android-Generic Project License
-              </a>
-              -
-              <a
-                href="https://github.com/boringdroid/boringdroid/blob/master/LICENSE"
-                target="_BLANK"
-              >
+              </a> -
+              <a href="https://github.com/boringdroid/boringdroid/blob/master/LICENSE" target="_BLANK">
                 Boringdroid License
-              </a>
-              - <br />
+              </a> - <br />
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!--  此组件不需要任何 HTML 结构，因为它的主要作用是执行全局脚本 -->
+    <!-- 此组件不需要任何 HTML 结构，因为它的主要作用是执行全局脚本 -->
   </div>
 </template>
 
@@ -39,12 +39,13 @@ export default {
             window.pageYOffset ||
             document.documentElement.scrollTop ||
             document.body.scrollTop;
+
           for (let i = 0; i < sections.length; i++) {
             const currLink = sections[i];
             const val = currLink.getAttribute("href");
 
             // 检查 val 是否为空或无效的选择器
-            if (!val || val === "/" || val.startsWith("#") === false) continue;
+            if (!val || val === "/" || val.indexOf("#") !== 0) continue;
 
             const refElement = document.querySelector(val);
             if (!refElement) continue;
@@ -53,9 +54,10 @@ export default {
               refElement.offsetTop <= scrollTopMinus &&
               refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
             ) {
-              document
-                .querySelector(".ud-menu-scroll.active")
-                ?.classList.remove("active"); // Only remove active class from existing active element
+              const activeElem = document.querySelector(".ud-menu-scroll.active");
+              if (activeElem) {
+                activeElem.classList.remove("active");
+              }
               currLink.classList.add("active");
             } else {
               currLink.classList.remove("active");

@@ -6,16 +6,14 @@
 
 <script>
 import { onMounted } from "vue";
+import WOW from "wowjs";
 
 export default {
   name: "MainScripts",
   setup() {
     onMounted(() => {
-      // "use strict";  // Vue 组件中不需要严格模式
-
       // ======= Sticky Header
       const ud_header = document.querySelector(".ud-header");
-      const logo = document.querySelector(".navbar-brand img"); // 获取logo
 
       const stickyHandler = () => {
         if (!ud_header) return; // 确保元素存在
@@ -60,14 +58,14 @@ export default {
       if (navbarToggler) {
         navbarToggler.addEventListener("click", function () {
           this.classList.toggle("active");
-          navbarCollapse?.classList.toggle("show"); // 使用 optional chaining 避免空指针
+          if (navbarCollapse) {
+            navbarCollapse.classList.toggle("show"); // 使用条件判断避免空指针
+          }
         });
       }
 
       // ===== wow js (如果还没初始化)
-      if (typeof WOW !== "undefined") {
-        new WOW().init();
-      }
+      new WOW().init();
 
       // ====== scroll top js
       function scrollTo(element, to = 0, duration = 500) {
@@ -88,7 +86,7 @@ export default {
         animateScroll();
       }
 
-      // Math.easeInOutQuad  (保持原样，因为它是独立的函数)
+      // Math.easeInOutQuad (保持原样，因为它是独立的函数)
       Math.easeInOutQuad = function (t, b, c, d) {
         t /= d / 2;
         if (t < 1) return (c / 2) * t * t + b;
@@ -108,3 +106,7 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+/* 如有需要，可添加对应的 CSS 样式 */
+</style>
