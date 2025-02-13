@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-3"></div>
           </div>
-          <h3 class="display-3"> </h3>
+          <h3 class="display-3"></h3>
           <!-- /.animated scroll -->
         </div>
       </div>

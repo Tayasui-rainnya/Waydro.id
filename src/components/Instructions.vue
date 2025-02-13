@@ -19,7 +19,7 @@
               <div class="px-md-5 col-md-6 d-flex flex-column align-items-start justify-content-center order-1 order-md-2">
                 <h1>Waydroid-Linux</h1>
                 <h3>
-                  <span style="color: var(--primary-color)">{{ $t("instructions.latestBeta") }} </span>
+                  <span style="color: var(--primary-color)">{{ $t("instructions.latestBeta") }}</span>
                   <span class="secondary-color">01.30.2023</span>
                 </h3>
                 <p class="mb-3">
