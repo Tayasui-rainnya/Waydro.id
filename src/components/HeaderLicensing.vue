@@ -99,8 +99,8 @@ export default {
       currentLanguage: "en",
       languages: [
         { value: "en", label: "EN", flag: "🇺🇸" },
-        { value: "zh", label: "中文", flag: "🇨🇳" },
-        { value: "tw", label: "繁體", flag: "🇹🇼" },
+        { value: "zh", label: "简体中文", flag: "🇨🇳" },
+        { value: "tw", label: "繁體中文", flag: "🇹🇼" },
         { value: "jp", label: "日本語", flag: "🇯🇵" },
       ],
     };
