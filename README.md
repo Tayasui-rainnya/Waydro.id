@@ -31,7 +31,7 @@ This guide will help you set up and build the "Waydro.id" project on your local 
    ```bash
    npm install
    ```
-   If you run into any issues with the build, ask ChatGPT ...
+   If you run into any issues with the build, ask ChatGPT or report a issue ...
 
 4. **Build the Project**:
    Run the build command to compile the project:
