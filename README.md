@@ -38,7 +38,7 @@ This guide will help you set up and build the "Waydro.id" project on your local 
    ```bash
    npm run build
    ```
-   If you run into any issues with the build …… Uhh, most likely, this will not be the case ...
+   If you run into any issues with the build …… Uhh, most likely, this will not be the case if occurred, please report a issue...
 
 5. **Deploy to Static Hosting**:
    After the build process is complete, the output files will be located in the `dist` directory. You can upload the contents of this directory to your preferred static website hosting platform.
