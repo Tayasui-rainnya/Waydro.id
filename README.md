@@ -39,8 +39,18 @@ This guide will help you set up and build the "Waydro.id" project on your local 
    npm run build
    ```
    If you run into any issues with the build …… Uhh, most likely, this will not be the case if occurred, please report a issue...
+   If you faced the problem on Linux like this :
+   ```bash
+   rainnya_lime@debian:~/桌面/project/waydro.id/Waydro.id$ cnpm run build
 
-5. **Deploy to Static Hosting**:
+   > vue-3@0.1.0 build
+   > vue-cli-service build
+
+   sh: 1: vue-cli-service: Permission denied
+   ```
+   Please try to run it. ``` chmod +x node_modules/.bin/vue-cli-service ```
+   
+6. **Deploy to Static Hosting**:
    After the build process is complete, the output files will be located in the `dist` directory. You can upload the contents of this directory to your preferred static website hosting platform.
 
 ## Additional Information
