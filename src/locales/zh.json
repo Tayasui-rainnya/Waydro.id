@@ -6,29 +6,29 @@
     "contact": "联系我们",
     "licensing": "许可证",
     "install": "安装",
-    "waydroidLinuxBeta": "唯卓 Beta 版"
+    "waydroidLinuxBeta": "唯卓尝鲜版"
   },
   "hero": {
-    "description": "一种基于容器的方法，可在运行 Wayland 桌面环境的常规 GNU/Linux 系统上启动完整的 Android 系统。",
+    "description": "Waydroid 通过容器技术使完整的 Android 系统能够运行在 Wayland 桌面环境的 GNU/Linux 系统上。",
     "documentation": "文档",
     "learnMore": "了解更多",
     "carousel1": {
       "title": "在 Linux 上完整集成 Android",
-      "description": "使用唯卓的多窗口模式"
+      "description": "唯卓的支持多窗口模式"
     },
     "carousel2": {
       "title": "移动 Linux 集成",
-      "description": "由唯卓带来"
+      "description": "唯卓为你带来安卓与 Linux 的集成能力"
     },
     "carousel3": {
       "title": "让您的桌面焕发生机",
-      "description": "使用唯卓的桌面和信息亭全屏模式"
+      "description": "使用唯卓桌面的全屏模式"
     }
   },
   "about": {
     "tag": "关于唯卓",
     "title": "在 Linux 上运行您喜爱的 Android 应用。",
-    "description1": "唯卓将您喜爱的所有应用带到桌面，与 Linux 应用并肩工作。",
+    "description1": "唯卓将您喜爱的所有 Android 应用带到桌面，与 Linux 应用同步工作。",
     "description2": "容器内的 Android 系统可以直接访问所需的硬件。",
     "description3": "Android 运行环境搭载基于以下系统的精简定制 Android 系统镜像：",
     "description4": "当前使用的镜像基于 Android 11",
@@ -37,7 +37,7 @@
   "features": {
     "title": "亮点",
     "subtitle": "唯卓的主要特性",
-    "description": "唯卓使用 Linux 命名空间（用户、进程 ID、UTS、网络、挂载、IPC）在容器中运行完整的 Android 系统，并在任何基于 GNU/Linux 的平台（arm、arm64、x86、x86_64）上提供 Android 应用程序。容器内的 Android 系统可以通过 LXC 和 binder 接口直接访问所需的硬件。",
+    "description": "唯卓使用 Linux 的命名空间（用户、进程 ID、UTS、网络、挂载、IPC等）在容器中运行完整的 Android 系统，并在基于 GNU/Linux 的平台（仅限 arm、arm64、x86、x86_64）上提供 Android 应用程序。容器内的 Android 系统可以通过 LXC 和 binder 接口直接访问所需的硬件。",
     "feature1": {
       "title": "免费又开源",
       "description": "该项目完全免费且开源，目前我们的代码库托管在"
@@ -96,8 +96,8 @@
 "here": "这里"
 },
 "instructions": {
-    "waydroidLinuxBetaTitle": "唯卓 - Linux Beta",
-    "waydroidLinux": "唯卓 - Linux",
+    "waydroidLinuxBetaTitle": "唯卓尝鲜版",
+    "waydroidLinux": "唯卓稳定版",
     "latestBeta": "最新测试版",
     "description": "我们已开始创建一些完全集成的发行版，以展示唯卓可以帮助实现的一些可能性。",
     "description2": "我们制作的每个发行版还将展示我们不断增长的贡献者社区的一些成果。",
@@ -112,7 +112,7 @@
     "softwareRendering": "软件渲染",
     "sourcesDescription1": "我们与许多开发者合作开发唯卓 - Linux，并为其创建或贡献了许多项目。",
     "sourcesDescription2": "以下是我们使用的一些项目：",
-    "waydroidLinuxTools": "唯卓 - Linux 工具",
+    "waydroidLinuxTools": "唯卓工具箱",
     "linuxToolsDescription": "用于唯卓 - Linux 构建的一些脚本、配置和主题",
     "waydroidSettings": "唯卓设置",
     "settingsDescription": "一个用 Python 编写的 GTK 应用程序，用于控制唯卓设置并通过脚本（shell/py）扩展功能",
@@ -126,12 +126,12 @@
     "waydroidSwitchScript": "唯卓 10/11 切换脚本",
     "liveModeInfo": "实时模式信息",
     "liveModeDescription1": "由于唯卓使用 LXC 和内核模块来实现 binder，因此在实时模式下运行时无法正常工作，必须安装后才能正常运行。",
-    "liveModeDescription2": "请务必查看.iso 文件中的 README，其中包含每个构建所需的具体信息。",
+    "liveModeDescription2": "请务必查看 .iso 文件中的 README 文件，其中包含每个构建所需的具体信息。",
     "downloadNow": "立即下载",
     "shareAndDownload": "分享与下载",
     "thanksForDownload": "感谢您的下载",
     "shareDescription": "请考虑分享我们的作品，以帮助我们扩大影响力。",
-    "rememberCheckReadme": "请记得查看下载文件夹中的 README.md 以获取版本信息",
+    "rememberCheckReadme": "请查看下载文件夹中的 README.md 以获取版本信息",
     "ubuntu2204KDEPlasma": "Ubuntu 22.04 [KDE-Plasma] (Lineage-18.1)",
     "ubuntu2204Gnome": "Ubuntu 22.04 [Gnome] (Lineage-18.1)",
     "debian12Beta": "Debian 12 Beta (Lineage-17.1 Vanilla)",
@@ -140,8 +140,8 @@
   },
   "team": {
     "ourTeam": "我们的团队",
-    "meetTheTeam": "认识团队",
-    "teamDescription": "以下是我们的团队成员",
+    "meetTheTeam": "关于我们",
+    "teamDescription": "开发团队成员",
     "leadDeveloper": "首席开发者",
     "developer": "开发者",
     "designer": "设计师"
@@ -156,9 +156,9 @@
   "footer": {
 "source": "来源",
 "documentation": "文档",
-"aBlissLabsProjectPrefix": "一个",
+"aBlissLabsProjectPrefix": "是",
 "aBlissLabsProjectLink": "BlissLabs",
-"aBlissLabsProjectSuffix": "项目",
+"aBlissLabsProjectSuffix": "项目的一部分",
 "copyright": "版权所有 © 2025 保留所有权利。"
 },
 "backToTop": {},
@@ -167,19 +167,20 @@
 },
 "LicensingLicensing": {
 "licensingTitle": "许可",
+"Warning":"请注意，中文版协议翻译自英文版协议，中文版协议仅供参考。",
 "licensingIntro": "唯卓提供不同的许可选项，以满足我们各类用户的需求：",
-"commercialLicense": "唯卓在 < b > 商业 </b > 许可下适用于开发专有 / 商业软件，您不希望与第三方共享任何源代码，或无法遵守 GNU GPL 版本 3 的条款。",
-"gplLicense": "唯卓在 < b>GNU 通用公共许可证（GPL）版本 3</b > 下适用于开发唯卓应用程序，前提是您能遵守 GNU GPL 版本 3 的条款和条件。",
-"thirdPartyCodeIntro": "唯卓还包含第三方代码，这些代码根据原始作者的特定开源许可证进行许可（见下文 < b > 唯卓中的第三方代码 </b>）。",
+"commercialLicense": "唯卓在 <b> 商业 </b> 许可下适用于开发 专有/商业 软件，您不希望与第三方共享任何源代码，或无法遵守 GNU GPL 版本 3 的条款。",
+"gplLicense": "唯卓是基于 <b>GNU 通用公共许可证（GPL）版本 3</b> （简称 GPL-3）的应用程序，如果您用于开发基于唯卓的应用程序，前提是您能遵守 GPL-3 的条款和条件。",
+"thirdPartyCodeIntro": "唯卓中包含了部分第三方代码，这些代码将根据原始作者的特定开源许可证进行许可（见下文 <b> 唯卓中的第三方代码 </b>）。",
 "note": "注意",
-"openSourceNote": "对于开源许可的唯卓，某些特定部分在 GNU 通用公共许可证（GPL）下可用。对于商业许可用户，所有唯卓相关的更改均在商业唯卓许可下提供。",
+"openSourceNote": "对于开源许可的唯卓，某些特定部分在 GPL 下可用。对于商业许可用户，所有唯卓相关的更改均在商业唯卓许可下提供。",
 "documentation": "唯卓文档",
 "documentationAvailability": "可通过 Navotpala Tech（Bliss Co-Labs）的商业许可获得，并根据自由软件基金会发布的 GNU 自由文档许可证（FDL）版本 1.3 的条款提供。",
 "educationalLicenses": "教育许可证适用于合格教育机构或大学的学生和教育工作者。",
 "purchasingAndSalesTitle": "购买和销售信息",
-"purchasingInstructions": "要购买商业唯卓许可证，",
+"purchasingInstructions": "若要购买商业唯卓许可证，请",
 "contactUs": "联系我们",
-"withYourRequest": "并提出您的请求。",
+"withYourRequest": "并提出您的合理请求。",
 "furtherInformation": "有关唯卓许可的更多信息和帮助，请联系我们或访问我们的网站以获取更多详情。",
 "thirdPartyCodeTitle": "唯卓中的第三方代码",
 "thirdPartyCodeDescription": "以下记录了唯卓不同部分使用的开源许可证：",
@@ -191,19 +192,19 @@
  "LicensingFAQ": {
     "title": "常见问题",
     "q1": "唯卓适合个人使用吗？",
-    "a1": "答：是的，唯卓的公开版本旨在允许 Android 应用程序在普通 Linux 环境上运行。<br /><br /> 我们提供多种构建版本来满足用户的需求：<br />- <b>Gapps 版本 </b>：带有 Google Play 商店 < br />- <b>Vanilla 版本 </b>：不包含额外的应用和服务。",
+    "a1": "答：是的，唯卓的公开版本旨在允许 Android 应用程序在普通 Linux 环境上运行。<br/><br/> 我们提供多种构建版本来满足用户的需求：<br/>-<b>Gapps 版本 </b>：带有 Google Play 商店 <br/>-<b>Vanilla 版本 </b>：不包含额外的应用和服务。",
     "q2": "唯卓包含专有软件吗？",
-    "a2": "答：是的。我们的 GMS/Gapps 版本包含专有软件，仅适用于个人用户，而我们的 Vanilla 版本也可能包含一些专有部分。<br /><br /> 唯卓公开版本中的专有再分发软件：<br />- 一些媒体编解码器（用于解码 H.264/HEVC）<br /><br /> 唯卓 Gapps 版本中的额外专有再分发软件包括 Google Play 服务和 Google Play 商店。",
+    "a2": "答：是的。我们的 GMS/Gapps 版本包含专有软件，仅适用于个人用户，而我们的 Vanilla 版本也可能包含一些专有部分。<br/><br/> 唯卓公开版本中的专有再分发软件：<br/>- 一些媒体编解码器（用于解码 H.264/HEVC）<br/><br/> 唯卓 Gapps 版本中的额外专有再分发软件包括 Google Play 服务和 Google Play 商店。",
     "q3": "唯卓适合公司使用吗？",
-    "a3": "答：是的，但并非所有版本都适合。我们提供 Vanilla 版本的唯卓构建。虽然这些版本非常基础，但它们包含了开发产品所需的大部分功能。如果您的产品不需要在公开发布的基础上进行额外更改，那么您可以免费使用它。<br /> 如果您的产品需要 Google 应用、ARM/ARM64 原生桥接或 Widevine，由于许可限制，我们建议您 <a href=\"mailto:waydroid.project@gmail.com?subject=Development Contract Inquiry\"> 联系我们 </a>，我们可以帮助您探索使用开源解决方案的替代选项。<br />",
+    "a3": "答：是的，但并非所有版本都适合。我们提供 Vanilla 版本的唯卓构建。虽然这些版本非常基础，但它们包含了开发产品所需的大部分功能。如果您的产品不需要在公开发布的基础上进行额外更改，那么您可以免费使用它。<br/> 如果您的产品需要 Google 应用、ARM/ARM64 原生桥接或 Widevine，由于许可限制，我们建议您 <a href=\"mailto:waydroid.project@gmail.com?subject=Development Contract Inquiry\"> 联系我们 </a>，我们可以帮助您探索使用开源解决方案的替代选项。<br/>",
     "q4": "我的公司可以直接使用带有 Gapps 的唯卓吗？",
-    "a4": "答：不可以。包含 Google Play 商店、原生桥接或 Widevine 的唯卓版本不适合商业用途或作为产品的一部分，因为它们包含专有功能和服务，通常需要通过 Google、Intel 或其他公司进行每个产品的许可。然而，我们确实发布不包含任何专有资源的公开 Vanilla 版本。<br /><br /> 大多数专有许可证不适用于通用操作系统设置。有些许可证要求设备通过仅适用于单个设备认证的认证程序。基于此原因，我们提供了开源替代方案。<br />",
+    "a4": "答：不可以。包含 Google Play 商店、原生桥接或 Widevine 的唯卓版本不适合商业用途或作为产品的一部分，因为它们包含专有功能和服务，通常需要通过 Google、Intel 或其他公司进行每个产品的许可。然而，我们确实发布不包含任何专有资源的公开 Vanilla 版本。<br/><br/> 大多数专有许可证不适用于通用操作系统设置。有些许可证要求设备通过仅适用于单个设备认证的认证程序。基于此原因，我们提供了开源替代方案。<br/>",
     "q5": "我的公司可以将唯卓源代码用于产品中吗？",
-    "a5": "答：可以，<b > 如果您是个人开发者、初创公司，或者代表其他商业企业，并且希望使用我们的源代码，我们所维护的开源许可证允许您在不收费的情况下使用源代码，只要您遵循以下条件：A）按原样使用，B）将所有修改贡献回源代码，或 C）将完整源代码独立发布给公众。</b > 如果您希望使用我们的源代码并进行修改，但不打算将其作为开源发布，我们请求您联系我们，签署 <b > 按设备许可协议 </b> 和 / 或建立 <a href=\"mailto:waydroid.project@gmail.com?subject=Development Contract Inquiry\"> 开发合同 </a>，以便进行品牌、优化和特定需求的定制。",
+    "a5": "答：可以，<b> 如果您是个人开发者、初创公司，或者代表其他商业企业，并且希望使用我们的源代码，我们所维护的开源许可证允许您在不收费的情况下使用源代码，只要您遵循以下条件：A）按原样使用，B）将所有修改贡献回源代码，或 C）将完整源代码独立发布给公众。</b> 如果您希望使用我们的源代码并进行修改，但不打算将其作为开源发布，我们请求您联系我们，签署 <b> 按设备许可协议 </b> 和 / 或建立 <a href=\"mailto:waydroid.project@gmail.com?subject=Development Contract Inquiry\"> 开发合同 </a>，以便进行品牌、优化和特定需求的定制。",
     "q6": "我的公司需要发布对唯卓源代码所做的任何更改吗？",
-    "a6": "答：这取决于更改发生在哪些源代码库，因为该项目中的许多代码库拥有不同的开源许可证，每个代码库可能有不同的要求。如果您不确定您的公司是否需要发布对某些更改的源代码，欢迎随时与我们联系。<br /><br /> 另一个需要注意的事项是，所使用的工具是否要求最终产品或修改发布。有些 Apache 2.0 许可证的项目允许做出此类要求。某些版本的 Android-Generic 项目也有类似的许可证要求。我们已经整理了一份工具包，帮助识别这些类型的许可证。您可以在 <a href=\"https://github.com/android-generic/agpm-auto-oss-license-documentation\"target=\"_BLANK\"> 此处 </a > 找到。",
-    "licensingQuestions": "许可相关问题？",
-    "licensingDescription": "我们尽力提供多种许可选项，以满足各类组织的需求。",
+    "a6": "答：这取决于更改发生在哪些源代码库，因为该项目中的许多代码库拥有不同的开源许可证，每个代码库可能有不同的要求。如果您不确定您的公司是否需要发布对某些更改的源代码，欢迎随时与我们联系。<br/><br/> 另一个需要注意的事项是，所使用的工具是否要求最终产品或修改发布。有些 Apache 2.0 许可证的项目允许做出此类要求。某些版本的 Android-Generic 项目也有类似的许可证要求。我们已经整理了一份工具包，帮助识别这些类型的许可证。您可以在 <a href=\"https://github.com/android-generic/agpm-auto-oss-license-documentation\"target=\"_BLANK\"> 此处 </a> 找到。",
+    "licensingQuestions": "其它有关许可的问题？",
+    "licensingDescription": "我们将尽力提供多种许可选项，以满足各类组织的需求。",
     "licensingHelp": "如果您不确定是否需要许可证，或者有任何关于我们许可选项的问题，请随时与我们联系。我们乐意帮助您找到最佳方式为源代码做出贡献。",
     "contactUs": "联系我们"
 },
